@@ -5,7 +5,7 @@ ENDCOLOR="\e[0m"
 clear
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
-if [ -f "flux" ]; then
+if [ -f "kairo" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
     rm kairo
     sleep 1
@@ -14,6 +14,6 @@ fi
 wget -q https://github.com/Zweaf/kairo/raw/main/kairo
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
-echo -e "${GREEN}Execute proxy with this command: ./flux${ENDCOLOR}"
+echo -e "${GREEN}Execute proxy with this command: ./kairo${ENDCOLOR}"
 chmod +x kairo
 rm -r -f install.sh
