@@ -11,7 +11,7 @@ if [ -f "flux" ]; then
     sleep 1
 fi
 echo -e "${GREEN}Getting new proxy...${ENDCOLOR}"
-wget -q https://github.com/Zweaf/flux/raw/main/flux
+wget -q https://github.com/Zweaf/kairo/raw/main/kairo
 sleep 1
 echo -e "${GREEN}Executing proxy...${ENDCOLOR}"
 chmod +x flux

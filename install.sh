@@ -7,13 +7,13 @@ echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
 if [ -f "flux" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
-    rm flux
+    rm kairo
     sleep 1
     echo -e "${GREEN}Updating proxy...${ENDCOLOR}"
 fi
-wget -q https://github.com/Zweaf/flux/raw/main/flux
+wget -q https://github.com/Zweaf/kairo/raw/main/kairo
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./flux${ENDCOLOR}"
-chmod +x flux
+chmod +x kairo
 rm -r -f install.sh

@@ -1,14 +1,14 @@
-# Flux Proxy for Growtopia Android
-DISCORD: Zweaf#9916
+# Kairo Proxy for Growtopia Android
+DISCORD: flux.id
 
 Growtopia enet proxy that allows modification and viewing of packets, as well as the creation of new ones.
 
 ## How to use
 1. Install Termux from F-Droid.
 2. Run the command `$ bash install.sh`.
-3. Launch the proxy using `./flux`.
+3. Launch the proxy using `./kairo`.
 
-## Flux Proxy Features
+## Kairo Proxy Features
 * /legal - Clear malpractice without a legal brief.
 * /banall - Ban all players in the world.
 * /kickall - Kick all players in the world.
@@ -24,6 +24,7 @@ Growtopia enet proxy that allows modification and viewing of packets, as well as
 * World Lock Troll.
 
 ## Credits
+* Amerta - server data, hosting, and help
 * ama6nen - game networking library.
 * Nubiza - source code, basic features, and networking library.
 * Gucktubeyt - gtlocalhost and terminal workflow.
